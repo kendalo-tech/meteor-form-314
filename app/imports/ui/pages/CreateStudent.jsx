@@ -56,6 +56,7 @@ const CreateStudent = () => {
               <Row>
                 <Col><TextField name="name" showInlineError placeholder="Your name" /></Col>
                 <Col><TextField name="email" showInlineError placeholder="Your email" /></Col>
+                <Col><SelectField name="Instructor" showInlineError placeholder="Choose one" /></Col>
               </Row>
               <LongTextField name="bio" showInlineError placeholder="A bit about you" />
               <Row>
